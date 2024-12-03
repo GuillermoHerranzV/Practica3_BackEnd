@@ -2,6 +2,7 @@ import { MongoClient,ObjectId } from "mongodb";
 import {fromModelToLugar,fromModelToNino,fromModelsToLugares} from "./utils.ts";
 import { LugaresModel, NinosModel } from "./types.ts";
 
+//URL
 const MONGO_URL = "mongodb+srv://ilopeza8:Password@cluster-nebrija.14k0m.mongodb.net/?retryWrites=true&w=majority&appName=Cluster-Nebrija";
 
 if (!MONGO_URL) {
